@@ -7,17 +7,16 @@ interface A {
 }
 
 interface B extends A {
-    
 }
 
 class Central0012 implements B {
     public void aaa() {
         System.out.println("aaa");
     }
-
-    public static void main(String arg[]) {
+ public static void main(String arg[]) {
         Central0012 obj = new Central0012();
         System.out.println("main");
-        obj.aaa();
+        
+     obj.aaa();
     }
 }
