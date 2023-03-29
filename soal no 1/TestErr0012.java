@@ -1,8 +1,8 @@
 /*Nama : Indah Nirwana
 Nim : 13020210012
 Kelas: B1*/
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class TestErr0012 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
